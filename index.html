@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3108b0baae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="./main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+    <div class="header">
+        <h2>Create Account</h2>
+    </div>
+    <form id="form" class="form">
+        <div class="form-control" >
+            <label for ="UserName">UserName</label>
+            <input type="text" placeholder="Enter your Name" aria-details="username" class="form-input" id="userName"/>
+            <i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small class="error-message">Error message</small>
+		</div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="Enter your Email" id="email" class="form-input"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password" class="form-input"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password check</label>
+                <input type="password" placeholder="Password two" id="password2" class="form-input"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button id="submitBtn">Submit</button>
+        </form>
+    </div>
